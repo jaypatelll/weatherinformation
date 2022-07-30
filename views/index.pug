@@ -1,0 +1,26 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title My Weather App
+  link(rel='stylesheet' href='../static/style.css')
+  .container
+    h1#title Weather App
+    .form1
+      h3#info Enter city Name
+      input#myInput(type='text')
+      button#mybtn Get Device Location
+      div#weatherinfo
+         img#weatherimg(src="http://openweathermap.org/img/wn/10d@2x.png", alt="Weather Icon")
+         h5 
+          span#city
+         h5 
+          span#description
+         h5
+          span#feelslike
+         h5 
+          span#temp
+      button#mybtn1 Go Back 
+
+  script(src='../static/index.js')

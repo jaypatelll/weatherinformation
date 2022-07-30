@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightpink;
+}
+
+.container{
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+}
+
+.form1{
+    margin: 50px 20px;
+    padding: 62px 66px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    background-color: blueviolet;
+    box-shadow: 10px 10px;
+    flex-wrap: wrap;
+}
+
+#myInput{
+    padding: 14px 13px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Kaushan';
+    color: white;
+    font-size: 20px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px black;
+    width: 100%;
+}
+
+#mybtn{
+    width: 100%;
+    padding: 14px 13px;
+    margin: 25px auto;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Lobster Two', cursive;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px white;
+}
+
+#mybtn1{
+    width: 100%;
+    padding: 14px 13px;
+    margin: 25px auto;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Lobster Two', cursive;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px white;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+#info{
+    padding: 14px 13px;
+    margin: 25px auto;
+    width: 90%;
+    text-align: center;
+    background: #ae79df;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    width: 100%;
+}
+
+#weatherinfo{
+    padding: 6px 37px;
+    margin: 10px auto;
+    width: 100%;
+    /* display: none; */
+    visibility: hidden;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    width: 0px;
+    height: 0px;
+}
+
+#weatherinfo h5{
+    margin: 15px 0px;
+}
+
+#weatherinfo span{
+    margin: 15px 0px;
+    font-size: 20px;
+    outline: none;
+}
+
+#weatherimg{
+    width: 140px;
+}
